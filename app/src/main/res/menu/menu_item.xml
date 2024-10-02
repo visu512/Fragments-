@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/About"
+        android:icon="@drawable/camera"
+        android:title="camera"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/call"
+        app:showAsAction="ifRoom"
+        android:title="call"/>
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        app:showAsAction="never"
+        android:title="Share"/>
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/logout"
+        app:showAsAction="never"
+        android:title="Log Out"/>
+    <item
+        android:id="@+id/set"
+        android:icon="@drawable/setting"
+        app:showAsAction="never"
+        android:title="Setting"/>
+
+</menu>
+
+
